@@ -1,0 +1,73 @@
+.form-group{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    
+    
+    
+}
+/* label{
+    color: aliceblue ;
+} */
+
+
+input{
+    
+    margin-left: 40px;   
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid orangered;
+
+}
+input:focus{
+    
+    outline: none;
+}
+
+
+
+div{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit{
+        
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 12px 30px;
+    outline: none;
+    border: none;
+    background-color: orangered;
+    color: aliceblue;
+    
+}
+
+.submit:hover{
+    border: none;
+}
+p{
+    color: red;
+    font-size: 15px;
+}
+
+.row{
+    box-shadow: 1px 1px 20px 10px #888888;
+    padding: 50px 50px 50px 100px;
+    /* background-image: linear-gradient(33deg, blue ,skyblue , blue); */
+    border-radius: 20px;
+}
+select{
+    padding: 10px 20px;
+    width: 300px;
+    border: none;
+}
+
+select:focus{
+    outline: none;
+}
+
+
